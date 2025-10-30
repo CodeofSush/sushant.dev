@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushant Sawant - Front-End Developer</title>
+    <link rel="icon" type="image/jpeg" href="portfolio pfp.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <img src="portfolio pfp.jpg" alt="Sushant Sawant" class="nav-pfp" id="navPfp">
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-name">Sushant Sawant</h1>
+            <p class="hero-title">Front-End Web Developer</p>
+            <p class="hero-description">Building clean, responsive and interactive web applications with passion for UI design</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary">View Work</a>
+                <a href="#contact" class="btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Motivated Computer Science student with hands-on experience in building clean, responsive and interactive web applications. Strong foundation in C++, JavaScript, HTML, and CSS, with a passion for UI design and improving user interaction on the web.</p>
+                    <p>Curious, fast-learner and focused on building practical products while improving problem-solving and coding abilities daily.</p>
+                    <div class="location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Mumbai, India</span>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <div class="skill-categories">
+                        <div class="skill-category">
+                            <h4>Programming</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">C++</span>
+                                <span class="skill-tag">JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Web Technologies</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">HTML</span>
+                                <span class="skill-tag">CSS</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Tools</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Git</span>
+                                <span class="skill-tag">GitHub</span>
+                                <span class="skill-tag">VS Code</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="toggle-buttons">
+                <button class="toggle-btn active" data-tab="work">Work</button>
+                <button class="toggle-btn" data-tab="education">Education</button>
+            </div>
+            
+            <div class="tab-content" id="content-area">
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3>Media Marketing Manager</h3>
+                        <span class="date">February 2025 – Present</span>
+                    </div>
+                    <p class="company">Dosa Anna Cafe, Borivali West, Mumbai</p>
+                    <ul class="experience-list">
+                        <li>Managed all online and offline marketing activities to grow the brand</li>
+                        <li>Used AI tools for SEO, social media planning, and Instagram reach</li>
+                        <li>Handled Google Business account and improved search results</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>TypeX</h3>
+                        <div class="project-links">
+                            <a href="https://codeofsush.github.io/typex/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="https://github.com/CodeofSush/typex" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <p class="project-description">Typing practice web app that calculates typing speed & accuracy in real-time with a clean, interactive UI.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Beezzy</h3>
+                        <div class="project-status">In Progress</div>
+                    </div>
+                    <p class="project-description">Task management web app focused on productivity and clean UI/UX.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-description">Actively seeking Front-End / Web Development internships or entry-level roles. Let's connect!</p>
+            <button class="message-btn" id="messageBtn">Leave a Message</button>
+            <div class="contact-links">
+                <a href="mailto:contactsushantsawant@gmail.com" class="contact-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email Me</span>
+                </a>
+                <a href="tel:+919702113965" class="contact-link">
+                    <i class="fas fa-phone"></i>
+                    <span>+91 9702113965</span>
+                </a>
+                <a href="https://www.linkedin.com/in/sushant-sawant-61896331a/" target="_blank" class="contact-link">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/CodeofSush" target="_blank" class="contact-link">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>Leave a Message</h3>
+                <button class="close-btn" id="closeBtn">&times;</button>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="Enter your name" required>
+                <input type="email" placeholder="Enter your email" required>
+                <textarea placeholder="Enter your message" rows="4" required></textarea>
+                <button type="submit" class="send-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Sushant Sawant. Built with passion.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
